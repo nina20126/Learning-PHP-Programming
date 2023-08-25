@@ -1,4 +1,4 @@
-# PHP Programming
+# PHP Programming - Course Assignments
 
 <!-- <table>
   <tr>  IMAGE 
