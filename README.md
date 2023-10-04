@@ -1,4 +1,4 @@
-# <img src="https://github.com/nina20126/PHP_Programming/assets/77397102/ffe2fc58-62a7-4cca-bad6-98eedde82618" alt="PHP logo" height="40" > My First PHP Programs 
+# My First PHP Programs 
 
 In this repository I have collected small PHP programs that I developed during a beginner level PHP programming course. Every assignment is located in their own folder and all files related is also included. There is also a detailed documentation about every programs functionality, and I feel that writing these documentations have really helped me to understand what I have done with the code. In this file I give a brief review about all assignments.
 
