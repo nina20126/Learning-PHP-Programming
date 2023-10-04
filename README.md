@@ -15,3 +15,6 @@ In this repository I have collected small PHP programs that I developed during a
 ### Assignments
 #### GRADES
 This programs reads student grades from a text file. Every grade is upgraded by adding one, unless the grade is 5.
+
+### BIGGEST AND SMALLEST VALUE
+There is a form asking three numbers from user. After submitting the form, program prints the biggest and the smallest of given numbers.
