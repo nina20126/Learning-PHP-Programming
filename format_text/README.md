@@ -25,11 +25,11 @@ form_submitted($mode, $user_input);
 Next I have a function call. All of the functions are impemented at the bottom of the php file. In this case, I wrote all code inside functions because the assingment was all about the functions. The form_submitted is the last function of this program so I'll return back to it soon. For now I can tell that the function takes two parameters: user_input and mode from the HTML form.  
 
 ```php
-	function wide_low($value) {
-		$value = strtolower($value);
-		$value = trim(chunk_split($value, 1, ' '));
-		echo $value;
-	}
+function wide_low($value) {
+	$value = strtolower($value);
+	$value = trim(chunk_split($value, 1, ' '));
+	echo $value;
+}
 ```
 * The first function formats the user input in lowercase and wide.
 * It takes one parameter, which is the text to format.
@@ -38,29 +38,29 @@ Next I have a function call. All of the functions are impemented at the bottom o
 * ```echo $value;``` the result of formatting is printed out.
 
 ```php
-	function wide_cap($value) {
-		$value = strtoupper($value);
-		$value = trim(chunk_split($value, 1, ' '));
-		echo $value;
-	}
+function wide_cap($value) {
+	$value = strtoupper($value);
+	$value = trim(chunk_split($value, 1, ' '));
+	echo $value;
+}
 ```
 * Second function formats the text in capital letters and wide. This functions is very similar to the previous function, except it is using ```strtoupper``` to format text to uppercase.
 
 ```php
 function back_low($value) {
-		$value = strtolower($value);
-		$value = strrev($value);
-		echo $value;
-	}
+	$value = strtolower($value);
+	$value = strrev($value);
+	echo $value;
+}
 ```
 * This function formats the text to lovercase letters and backwards. Function ```strrev``` is used for backwarding the text.
 
 ```php
 function back_cap($value) {
-		$value = strtoupper($value);
-		$value = strrev($value);
-		echo $value;
-	}
+	$value = strtoupper($value);
+	$value = strrev($value);
+	echo $value;
+}
 ```
 * ... and then the same with capital letters.
 
@@ -77,7 +77,7 @@ function form_submitted($mode, $input) {
         } else {
             echo "Something went wrong.";
         }
-    }
+}
 ```
 * This is the function which is called at the beginning of the program. It takes two values: $mode, that tells how the input shoul be formatted, and input that is the text to format. Based on the mode, this function calls the other function that makes the formatting. So if the user mode selection was 1, function wide_low shoul be called. If the mode was 2, then the function wide_cap shoul be called and so on. Finally, if anything weird happens, the program prints out Something went wrong.
 
