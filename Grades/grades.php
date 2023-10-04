@@ -29,4 +29,7 @@
     echo "Grades before update:" . "<br>" . $old_grades . "<br>";
     echo "<br>" . "New grades are:" . "<br>" . $grades_updated;
     fclose($handle_update);
+	
+	$clear = fopen($updated_grades, 'w');
+    fclose($clear);
 ?>
