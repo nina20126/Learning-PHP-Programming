@@ -18,3 +18,6 @@ This programs reads student grades from a text file. Every grade is upgraded by 
 
 #### BIGGEST AND SMALLEST VALUE
 There is a form asking three numbers from user. After submitting the form, program prints the biggest and the smallest of given numbers.
+
+#### FORMAT TEXT
+There is a form that is asking some text from user. The form has also four options that user can choose for formatting the input. Formatted text is printed below.
