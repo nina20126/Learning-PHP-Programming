@@ -13,11 +13,11 @@ In this repository I have collected small PHP programs that I developed during a
 * Information security
 
 ### Assignments
-#### GRADES
-This programs reads student grades from a text file. Every grade is upgraded by adding one, unless the grade is 5.
+##### GRADES
+* This programs reads student grades from a text file. Every grade is upgraded by adding one, unless the grade is 5.
 
-#### BIGGEST AND SMALLEST VALUE
-There is a form asking three numbers from user. After submitting the form, program prints the biggest and the smallest of given numbers.
+##### BIGGEST AND SMALLEST VALUE
+* There is a form asking three numbers from user. After submitting the form, program prints the biggest and the smallest of given numbers.
 
-#### FORMAT TEXT
-There is a form that is asking some text from user. The form has also four options that user can choose for formatting the input. Formatted text is printed below.
+##### FORMAT TEXT
+* There is a form that is asking some text from user. The form has also four options that user can choose for formatting the input. Formatted text is printed below.
