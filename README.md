@@ -20,4 +20,4 @@ In this repository I have collected small PHP programs that I developed during a
 
 **FORMAT TEXT** There is a form that is asking some text from user. The form has also four options that user can choose for formatting the input. Formatted text is printed below.  
 
-**NUMBERS** Here I am generating a list of random number, arranging it in different ways and then doing little calculation with those numbers.
+**NUMBERS** Here I am generating a list of random numbers, arranging it in different ways and then doing little calculation with those numbers.
