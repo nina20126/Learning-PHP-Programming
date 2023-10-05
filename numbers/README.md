@@ -35,7 +35,7 @@ for($x = 0; $x < count($copy1)-1; $x++)
 }
 ```
 * Here I am re-arranging the numbers from biggest to smallest, and for that I use nested for loops. I also use the first copy of the random_numbers list.
-* I am going to explain this functionality from the inner for loop and the if statement.
+* I am going to explain this functionality beginning from the inner for loop and the if statement.
   *   So we have a variable $y, which we can think of a reference to list index. We are compairing a value in current list index to the value next to it. If that current value is smaller, the if statement executes.
   *   In the if statment we have a temporary variable called $temp, and in that variable we are savig the bigger value which we just compared.
   *   Then we are saving the smaller value into that list index where the bigger value was.
